@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tyler Hawk's First Page</title>
+    <link rel="stylesheet" href="myfirststyle.css">
+  </head>
+  <body>
+
+    <div class="header">
+        <h1>Welcome to my page!</h1>
+        <h2>My name is Tyler Hawk Richards</h2>
+    </div>
+    <div class="survay">
+      <div id="image-count-container">
+        <div id="count-spacer-show" ></div>
+        <div id="count-container" class="hide">
+          <div id="count">
+            <span id="heart-text"></span>
+            <div class="heart-shape" id="heart">
+            </div>
+          </div>
+        </div>
+        <img id="thums-img" src="thumsup.png">
+        <div id="count-spacer"></div>
+      </div>
+      <button id="thumbsUpBtn" onclick="increment()">Give a thumbs up if you like Thumsup!</button>
+
+    </div>
+    <div class="score-board-container">
+      <div id="score-board">
+        <div id='home' >
+          <h1 class="home">HOME</h1>
+          <div id='number-box'>
+            <span id="home-score">00</span>
+          </div>
+          <div id="score-controlers">
+            <div id="add-one-home" class="score-btn">
+              <span>+1</span>
+            </div>
+            <div id="add-two-home" class="score-btn">
+              <span>+2</span>
+            </div>
+            <div id="add-three-home" class="score-btn">
+              <span>+3</span>
+            </div>
+          </div>
+        </div>
+        <div id="away" >
+          <h1 class="away">AWAY</h1>
+          <div id="number-box">
+            <span id="away-score">00</span>
+          </div>
+          <div id="score-controlers">
+            <div id="add-one-away" class="score-btn">
+              <span>+1</span>
+            </div>
+            <div id="add-two-away" class="score-btn">
+              <span>+2</span>
+            </div>
+            <div id="add-three-away" class="score-btn">
+              <span>+3</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	<script src="letsStartHere.js"></script>
+  </body>
+</html>
